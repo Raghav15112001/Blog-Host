@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>BlogHost</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+
+    <!-- <a id="blogHost-brand"> BlogHost</a> -->
+    <p class="blogHost-brand pt-2 px-3 glow">BlogHost</p>
+
+    <div class="row">
+        <div class="col-md-6 mx-auto p-0">
+            <div class="card">
+                <div class="login-box">
+                    <div class="login-snip"> <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Login</label> <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+                        <div class="login-space">
+                            <form action="/login" method="POST">
+                                <div class="login">
+                                    <div class="group"> <label for="user" class="label">Email Address</label> <input id="user" type="mail" class="input" name="username" placeholder="Enter your username">
+                                    </div>
+                                    <div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" name="password" data-type="password" placeholder="Enter your password"> </div>
+                                    <div class="group"> <input id="check" type="checkbox" class="check" checked> <label for="check"><span class="icon"></span> Keep me Signed in</label> </div>
+                                    <div class="group"> <input type="submit" class="button" value="Sign In"> </div>
+                                    <div class="hr"></div>
+                                    <!-- <div class="foot"> <a href="#">Forgot Password?</a> </div> -->
+                                </div>
+                            </form>
+                            <form action="/register" method="POST">
+                                <div class="sign-up-form">
+                                    <div class="group"> <label for="user" class="label">Username</label> <input id="user" type="text" class="input" name="name" placeholder="Create your Username">
+                                    </div>
+                                    <div class="group"> <label for="pass" class="label">Email Address</label> <input id="pass" type="text" class="input" name="username" placeholder="Enter your email address">
+                                    </div>
+                                    <div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" name="password" data-type="password" placeholder="Create your password"> </div>
+                                    <!-- <div class="group"> <label for="pass" class="label">Repeat Password</label> <input
+                                            id="pass" type="password" class="input" data-type="password"
+                                            placeholder="Repeat your password"> </div> -->
+
+                                    <div class="group"> <input type="submit" class="button" value="Sign Up"> </div>
+                                    <div class="hr"></div>
+                                    <div class="foot"> <label for="tab-1">Already Member?</label> </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

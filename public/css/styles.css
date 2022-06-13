@@ -1,0 +1,233 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+
+/* body{
+  margin-top: 0;
+  padding: 0;
+  
+  } */
+
+.title {
+    margin-top: 50px;
+    font-family: 'Otomanopee One', sans-serif;
+    color: rgba(34, 34, 34, 0.63);
+}
+
+.container-fluid {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background: transparent;
+}
+
+#navcon {
+    font-weight: 900;
+    background: transparent;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: coral;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-family: 'Fuggles', cursive;
+    font-size: 4.5em;
+    font-weight: 900;
+    color: black;
+    background-color: rgb(255, 173, 80);
+    border-radius: 50px;
+    line-height: 1.15;
+    margin-left: 40px;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.footer-padding {
+    padding-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: transparent;
+}
+
+.footer p {
+    margin-top: 25px;
+    font-family: cursive;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.headbg {
+    background-image: url(https://besthqwallpapers.com/Uploads/13-1-2021/151483/thumb2-math-blackboard-texture-background-with-geometric-shapes-math-background-math-texture-geometric-lines-shapes-texture.jpg);
+    /* height: 100em;
+  width: 100%; */
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 0rem;
+    text-align: center;
+    /* background-position: center; */
+}
+
+.cont {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+/*this is for all post page */
+
+.allpost {
+    text-align: center;
+    padding: 10px;
+}
+
+.postbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn2 {
+    margin-left: 50px;
+    background-color: rgb(255, 183, 68);
+}
+
+.mainfooter {
+    font-size: larger;
+}
+
+
+/* compose.ejs ki comments  */
+
+.compose-div {
+    text-align: center;
+    line-height: 3;
+}
+
+.compose-div h1 {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.comphead {
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.object-fit {
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+}
+
+.all-cards {
+    text-align: center;
+    height: 35em;
+    background-color: rgba(1, 29, 105, 0.233);
+}
+
+.allpost-bg {
+    background-image: url(https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* .form-control{
+  width: 50%;
+  margin: auto;
+} */
+
+.btn-allpost {
+    border-radius: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 30px;
+    left: 95%;
+    size: 20%;
+}
+
+
+/* Detail post page */
+
+.detail-post {
+    max-width: auto;
+    max-height: 35em;
+    object-fit: contain;
+    text-align: center;
+}
+
+.detail-card {
+    background: rgba(74, 91, 247, 0);
+    border: 2px solid black;
+    box-shadow: 12px -12px 10px 5px rgba(0, 0, 255, .2);
+}
+
+.compose-bg {
+    background-image: -webkit-linear-gradient(70deg, rgb(255, 183, 68) 50%, #e4e9fd 50%);
+    background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, #ff9100);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, #30ff00);
+}
+
+.frontbg {
+    background-image: url(https://images.unsplash.com/photo-1515343480029-43cdfe6b6aae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80);
+    height: auto;
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 0rem;
+    text-align: center;
+    background-attachment: fixed;
+    /* background-position: center; */
+}
+
+
+/* Animation starts from here */
